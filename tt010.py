@@ -1,4 +1,6 @@
-from Tkinter import * ### (1)
+#!/usr/bin/env python2.7
 
-root = Tk()           ### (2)
+import Tkinter        ### (1)
+
+root = Tkinter.Tk()   ### (2)
 root.mainloop()       ### (3)

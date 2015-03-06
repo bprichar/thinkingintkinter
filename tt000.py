@@ -1,3 +1,5 @@
+#!/usr/bin/env python2.7
+
 #----- task 2:  define the event handler routines --------------------
 def handle_A():
     print "Wrong! Try again!"
