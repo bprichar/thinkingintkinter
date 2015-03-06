@@ -1,8 +1,10 @@
-from Tkinter import *
+#!/usr/bin/env python2.7
 
-root = Tk()
+import Tkinter
 
-myContainer1 = Frame(root)  ### (1)
-myContainer1.pack()         ### (2)
+root = Tkinter.Tk()
+
+myContainer1 = Tkinter.Frame(root)  ### (1)
+myContainer1.pack()                 ### (2)
 
 root.mainloop()
